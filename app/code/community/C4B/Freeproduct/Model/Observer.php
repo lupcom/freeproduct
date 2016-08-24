@@ -209,7 +209,7 @@ class C4B_Freeproduct_Model_Observer
         $quoteItem->setQuote($quote)
                 ->setQty($qty)
                 ->setCustomPrice(0.0)
-                ->setOriginalCustomPrice($product->getPrice())
+                ->setOriginalCustomPrice(0.0)
                 ->setIsFreeProduct(true)
                 ->setWeeeTaxApplied('a:0:{}') // Set WeeTaxApplied Value by default so there are no "warnings" later on during invoice creation
                 ->setStoreId($storeId);

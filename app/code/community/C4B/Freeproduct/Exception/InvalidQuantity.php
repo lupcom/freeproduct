@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Freeproduct Module
  *
@@ -13,6 +12,7 @@
  * @copyright    code4business Software GmbH
  * @version      1.1.3
  */
-class C4B_Freeproduct_Helper_Data extends Mage_Core_Helper_Abstract
+class C4B_Freeproduct_Exception_InvalidQuantity extends RuntimeException
 {
+
 }
